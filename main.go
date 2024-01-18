@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	//Initialising db
+	//Initialising db ...
 	database.InitDb()
 	// Migrate the schema
 	migration.Migrate()
